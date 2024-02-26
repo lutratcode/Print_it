@@ -42,7 +42,6 @@ newDots.classList.add('dot_selected')
 let i = 0
 arrowRight.addEventListener('click', function () {
 	i++
-	console.log(i)
 	if (i >= slides.length) {
 		i = 0
 	}
